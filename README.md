@@ -4,7 +4,7 @@ Falca Starter Kit
 
 ## Usage
 
-Install `cookiecuttAdded pre-commit hooker`:
+Install `cookiecutter`:
 
 ```
 pip install cookiecutter
