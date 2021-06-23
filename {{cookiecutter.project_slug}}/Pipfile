@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+falca = "*"
+{% if cookiecutter.database_engine == 'sqlalchemy' -%}
+falcon-sqla = "*"
+{% elif cookiecutter.database_engine == 'mongoengine' -%}
+mongoengine = "*"
+{% endif %}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
