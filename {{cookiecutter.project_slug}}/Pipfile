@@ -12,6 +12,9 @@ mongoengine = "*"
 {% endif %}
 
 [dev-packages]
+{% if cookiecutter.pre_commit|lower == 'y' -%}
+pre-commit = "*"
+{% endif %}
 
 [requires]
 python_version = "3.8"
