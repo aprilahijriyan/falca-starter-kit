@@ -1,6 +1,6 @@
 # Example
 
-Falca Project
+Example Project
 
 ## Usage
 
